@@ -5,13 +5,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Net;
 
-namespace Webserver.HTML
+namespace Webserver
 {
     static class Extensions
     {
         static string GetURLPart(this HttpListenerRequest req, int index)
         {
-            string part = req.RawUrl.Split('/')[index];
+            string part = req.RawUrl.Split('/')[index + 1];
 
             return part;
         }
