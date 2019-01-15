@@ -26,7 +26,6 @@ namespace Webserver
                 throw new NotSupportedException(
                     "Requires Windows XP SP2, Server 2003 or later.");
 
-            // Example "http://localhost:8080/index/".
             if (prefixes == null || prefixes.Length == 0)
                 throw new ArgumentException("prefixes");
 

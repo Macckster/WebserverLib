@@ -42,7 +42,7 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
     <Reference Include="Webserver">
-      <HintPath>..\Webserver\bin\Release\Webserver.dll</HintPath>
+      <HintPath>..\Webserver\bin\Debug\Webserver.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

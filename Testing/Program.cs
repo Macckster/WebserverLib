@@ -22,7 +22,7 @@ namespace Testing
 
         static string Recieve(HttpListenerRequest req)
         {
-            return LoadHTML("HTML/Test.html", 10);
+            return LoadHTML("HTML/Test.html", "Jag har ingen", "Aning om vad jag ska skriva här");
         }
     }
 }
